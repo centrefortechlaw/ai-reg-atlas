@@ -1,0 +1,172 @@
+[
+ {
+  "id": "in",
+  "code": "IN",
+  "name": "India"
+ },
+ {
+  "id": "eu",
+  "code": "EU",
+  "name": "European Union"
+ },
+ {
+  "id": "us",
+  "code": "US",
+  "name": "United States"
+ },
+ {
+  "id": "uk",
+  "code": "UK",
+  "name": "United Kingdom"
+ },
+ {
+  "id": "cn",
+  "code": "CN",
+  "name": "China"
+ },
+ {
+  "id": "br",
+  "code": "BR",
+  "name": "Brazil"
+ },
+ {
+  "id": "sg",
+  "code": "SG",
+  "name": "Singapore"
+ },
+ {
+  "id": "ca",
+  "code": "CA",
+  "name": "Canada"
+ },
+ {
+  "id": "kr",
+  "code": "KR",
+  "name": "South Korea"
+ },
+ {
+  "id": "jp",
+  "code": "JP",
+  "name": "Japan"
+ },
+ {
+  "id": "au",
+  "code": "AU",
+  "name": "Australia"
+ },
+ {
+  "id": "ae",
+  "code": "AE",
+  "name": "United Arab Emirates"
+ },
+ {
+  "id": "sa",
+  "code": "SA",
+  "name": "Saudi Arabia"
+ },
+ {
+  "id": "il",
+  "code": "IL",
+  "name": "Israel"
+ },
+ {
+  "id": "ch",
+  "code": "CH",
+  "name": "Switzerland"
+ },
+ {
+  "id": "tr",
+  "code": "TR",
+  "name": "Turkey"
+ },
+ {
+  "id": "tw",
+  "code": "TW",
+  "name": "Taiwan"
+ },
+ {
+  "id": "vn",
+  "code": "VN",
+  "name": "Vietnam"
+ },
+ {
+  "id": "id",
+  "code": "ID",
+  "name": "Indonesia"
+ },
+ {
+  "id": "za",
+  "code": "ZA",
+  "name": "South Africa"
+ },
+ {
+  "id": "ng",
+  "code": "NG",
+  "name": "Nigeria"
+ },
+ {
+  "id": "ke",
+  "code": "KE",
+  "name": "Kenya"
+ },
+ {
+  "id": "rw",
+  "code": "RW",
+  "name": "Rwanda"
+ },
+ {
+  "id": "eg",
+  "code": "EG",
+  "name": "Egypt"
+ },
+ {
+  "id": "mx",
+  "code": "MX",
+  "name": "Mexico"
+ },
+ {
+  "id": "cl",
+  "code": "CL",
+  "name": "Chile"
+ },
+ {
+  "id": "co",
+  "code": "CO",
+  "name": "Colombia"
+ },
+ {
+  "id": "ar",
+  "code": "AR",
+  "name": "Argentina"
+ },
+ {
+  "id": "pe",
+  "code": "PE",
+  "name": "Peru"
+ },
+ {
+  "id": "th",
+  "code": "TH",
+  "name": "Thailand"
+ },
+ {
+  "id": "my",
+  "code": "MY",
+  "name": "Malaysia"
+ },
+ {
+  "id": "ph",
+  "code": "PH",
+  "name": "Philippines"
+ },
+ {
+  "id": "nz",
+  "code": "NZ",
+  "name": "New Zealand"
+ },
+ {
+  "id": "intl",
+  "code": "INTL",
+  "name": "International & soft law"
+ }
+]

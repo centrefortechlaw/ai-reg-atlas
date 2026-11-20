@@ -1,0 +1,336 @@
+{
+  "plate": "in",
+  "as_of": "19-11-2026",
+  "members": [
+    {
+      "n": "Aayush Pradip",
+      "r": "Lead coder / Final reviewer"
+    },
+    {
+      "n": "Chinmayi Kulkarni",
+      "r": "Sourcing and citation verifier"
+    },
+    {
+      "n": "Damini",
+      "r": "Plate analyst (Part B synthesis)"
+    },
+    {
+      "n": "Deepali Kashyap",
+      "r": "Lead coder"
+    },
+    {
+      "n": "Devansh Bansal",
+      "r": "Lead coder"
+    },
+    {
+      "n": "Gungun Gurbaxani",
+      "r": "Co-coder"
+    },
+    {
+      "n": "Hersumeet Kaur",
+      "r": "Research"
+    },
+    {
+      "n": "Kanak Kumari",
+      "r": "Sectoral coder / Institutional analyst"
+    },
+    {
+      "n": "Krithika",
+      "r": "Plate summary"
+    },
+    {
+      "n": "Opal Soni",
+      "r": "Lead coder"
+    },
+    {
+      "n": "Ritul",
+      "r": "Vocabulary QA and editor"
+    },
+    {
+      "n": "Riya Kariya",
+      "r": "Co-coder"
+    },
+    {
+      "n": "Samarth Kansana",
+      "r": "Co-coder"
+    },
+    {
+      "n": "Shantanu Singh",
+      "r": "Co-coder"
+    },
+    {
+      "n": "Shreyanshee",
+      "r": "Technical standards coder / Verification lead"
+    },
+    {
+      "n": "Yuvrani Warte",
+      "r": "Coding"
+    }
+  ],
+  "governance_model": "Hybrid",
+  "governance_justification": "India has no AI statute and its 2025 AI Governance Guidelines said none was needed at that stage, yet binding AI-relevant duties with sanctions already apply through the 2026 synthetic-content rules for intermediaries and SEBI's AI rules for regulated market entities, with the DPDP Act and Rules enacted but imposing most duties and penalties only from 13-05-2027, all beside a larger layer of voluntary national and sectoral guidance; press reports say the IT Minister announced in October 2026 a regulation-focused consultation paper on AI, which had not been published by 19-11-2026.",
+  "institutional_map": "Enforcement is split by instrument, not by technology. MeitY administers the IT Act and its intermediary rules, including the 2026 synthetic-content duties, which bite through loss of s 79 safe harbour, takedown on court orders or authorised officers' intimations, and Grievance Appellate Committees; it also issues advisories and in April 2026 constituted the AI Governance and Economic Group, chaired by the IT Minister: an inter-ministerial policy-coordination body without enforcement powers and without the sector regulators the Guidelines had proposed as members. The Data Protection Board of India was established on 13-11-2025 (a Chairperson and four Members), but its powers of inquiry and penalty start on 13-05-2027 (oversight of consent managers from 13-11-2026), and the editors found no Gazette or PIB notice appointing its Chairperson or members by 19-11-2026. SEBI holds binding AI-specific powers over regulated market entities (reg 16C and the AI/ML reporting requirements now in its master circulars); the RBI has so far issued only recommendations and a draft, and ICMR guidance works through ethics committees. Overlaps arise where a platform or a bank uses AI on personal data, which both MeitY or the sector regulator and the Board can reach.",
+  "conv": [
+    "Like Article 50 of the EU AI Act and China's 2025 measures on labelling AI-generated content, India now makes labelling of realistic synthetic media mandatory, with embedded provenance metadata where technically feasible, and places the duty on intermediaries that host such content or offer the tools that generate it.",
+    "As on the Japan plate, operative AI rules come from existing regulators applying their own laws rather than from a horizontal AI statute with sanctions, and India's sector regulators fix accountability on the regulated deployer: SEBI makes regulated persons solely responsible for AI outputs, and the RBI's framework and draft guidance ask boards to own AI risk with human oversight."
+  ],
+  "gaps": [
+    "No instrument gives a person affected by an automated decision an enforceable right to an explanation, human review or contestation of that decision; the DPDP Act has no counterpart to GDPR Article 22, and the closest safeguards sit in non-binding or draft financial-sector texts.",
+    "There is no cross-sector risk classification and no duty aimed at AI developers as such: binding obligations attach only to intermediaries, data fiduciaries or sector-regulated entities, and the one algorithm-specific duty (DPDP Rules r 13(3)) is vague, limited to Significant Data Fiduciaries and not in force until 13-05-2027."
+  ],
+  "assume": "Excluded: the IT Act 2000 itself (coded through its rules); SEBI's parallel AI/ML reporting requirements for market infrastructure institutions and mutual funds; CERT-In's AI bill-of-materials guidelines and AI-agent advisory; TEC 57050:2023; the Supreme Court's draft AI-in-courts regulations; the private member's AI (Ethics and Accountability) Bill 2025; NITI Aayog papers and IRDAI material. Judgement calls: a definition of synthetic content, or a glossary in a non-binding report, is not coded as a legal definition of AI, while SEBI's inclusive lists of AI/ML tools are (a borderline call); 'Developer; Deployer' is ticked where a text does not distinguish them; soft-law and draft rows record recommended duties, rights and risk tiers, which are not enforceable. Teams disagreed on the governance model: ATOMIX and Nyaya Nexus chose Hybrid, Devansh Bansal and LexBharata Soft-law-led, CodeSutra Sectoral. The editors chose Hybrid because the synthetic-content rules and SEBI's AI rules already carry sanctions and the DPDP framework is enacted, while the national AI framework is voluntary. All texts are in English; no translation risk. Status verified as of 19-11-2026.",
+  "instruments": [
+    {
+      "name": "Digital Personal Data Protection Act, 2023",
+      "original_title": "Act No. 22 of 2023",
+      "year": "2023",
+      "status": "Binding",
+      "type": "Statute",
+      "actor": "Developer; Deployer; State",
+      "systems": "Any processing of digital personal data, including by AI systems; 'automated' is defined (s 2(b)) but AI is not named",
+      "ai_defined": "No",
+      "trigger": "Processing digital personal data in India, or outside India when offering goods or services to people in India (s 3); phased: Board provisions from 13-11-2025, consent-manager provisions from 13-11-2026, most duties, rights and penalties from 13-05-2027 (G.S.R. 843(E))",
+      "duties": "Transparency; Data governance; Impact assessment; Audit",
+      "duty_note": "From 13-05-2027: give notice and obtain consent, keep data accurate where it is used to make decisions about a person (s 8(3)), secure and erase data; Significant Data Fiduciaries must also run impact assessments and audits (s 10)",
+      "risk": "Absent",
+      "tiers": "",
+      "rights": "Notice; Contestation",
+      "enf": "Data Protection Board of India (ss 18-28), with appeals to the Telecom Disputes Settlement and Appellate Tribunal (s 29)",
+      "remedy": "From 13-05-2027: penalties after Board inquiry under s 33 and the Schedule, up to INR 250 crore for failing to take reasonable security safeguards; voluntary undertakings (s 32); blocking on the Board's reference (s 37)",
+      "gap": "It gives no right to an explanation of, human review of, or objection to an automated decision: s 8(3) asks only that the data feeding a decision be accurate and complete, and broad State and research exemptions (s 17) leave much public-sector AI outside its duties.",
+      "citation": "Digital Personal Data Protection Act 2023 (Act 22 of 2023), Gazette of India Extraordinary Pt II s 1 (11 August 2023), ss 2(b), 3, 5, 8(3), 10-13, 17, 18-29, 33 and Schedule; commenced in phases by G.S.R. 843(E) (13 November 2025); ss 9(1) and 10(2)(c)(ii) modified by the Digital Personal Data Protection (Removal of Difficulties) Order 2026, S.O. 5458(E) (5 October 2026)",
+      "src": "https://egazette.gov.in/WriteReadData/2023/248045.pdf"
+    },
+    {
+      "name": "Securities and Exchange Board of India (Intermediaries) (Amendment) Regulations, 2025",
+      "original_title": "F. No. SEBI/LAD-NRO/GN/2025/226",
+      "year": "2025",
+      "status": "Binding",
+      "type": "Subordinate rules",
+      "actor": "Developer; Deployer",
+      "systems": "AI and machine-learning tools and techniques, designed in-house or procured, used by any SEBI-regulated person to serve investors or for internal, compliance or business purposes (reg 16C)",
+      "ai_defined": "Yes",
+      "trigger": "Use of AI/ML tools by a SEBI-regulated person, whatever the scale of adoption; in force on gazette publication, 10-02-2025",
+      "duties": "Data governance",
+      "duty_note": "Makes the regulated person solely responsible for the privacy, security and integrity of investor data, for the outputs of the AI tools it relies on, and for compliance with the law",
+      "risk": "Absent",
+      "tiers": "",
+      "rights": "None",
+      "enf": "Securities and Exchange Board of India (reg 16C(2))",
+      "remedy": "Any action SEBI deems fit, including action under Chapter V of the SEBI (Intermediaries) Regulations 2008",
+      "gap": "It fixes outcome liability on the regulated entity but prescribes no testing, bias control, explainability, human oversight or investor disclosure, which exist only in SEBI's unadopted June 2025 consultation paper; AI vendors are reached only through the entities that buy from them.",
+      "citation": "Securities and Exchange Board of India (Intermediaries) (Amendment) Regulations 2025, F. No. SEBI/LAD-NRO/GN/2025/226 (6 February 2025), Gazette of India Extraordinary Pt III s 4 (10 February 2025), inserting Chapter IIIB (reg 16C) into the SEBI (Intermediaries) Regulations 2008",
+      "src": "https://www.sebi.gov.in/legal/regulations/feb-2025/securities-and-exchange-board-of-india-intermediaries-amendment-regulations-2025_91809.html"
+    },
+    {
+      "name": "SEBI Master Circular for Stock Brokers, para 63 (Reporting for AI and ML applications and systems offered and used by market intermediaries)",
+      "original_title": "SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90",
+      "year": "2025",
+      "status": "Binding",
+      "type": "Regulator guidance",
+      "actor": "Developer; Deployer",
+      "systems": "AI/ML applications that stock brokers offer to investors or use for trading, advice or compliance; Annexure-27 lists the technologies treated as AI/ML (an inclusive list); depository participants report under the parallel para 2.20 of the Master Circular for Depositories",
+      "ai_defined": "Yes",
+      "trigger": "Offering or using an in-scope AI/ML application or system; quarterly reporting, a requirement first imposed by the circular of 4 January 2019",
+      "duties": "Registration or filing",
+      "duty_note": "File a quarterly AI/ML reporting form within 15 days of quarter-end; stock exchanges consolidate the returns and send them to SEBI within 30 days",
+      "risk": "Absent",
+      "tiers": "",
+      "rights": "None",
+      "enf": "Securities and Exchange Board of India, with stock exchanges collecting and compiling the returns",
+      "remedy": "None specific to the requirement; SEBI's general powers under the SEBI Act 1992",
+      "gap": "It builds an inventory for the regulator but imposes no testing, fairness, explainability or oversight duty and gives investors nothing to invoke; the parallel requirements for depositories, market infrastructure institutions and mutual funds follow the same reporting-only model.",
+      "citation": "Securities and Exchange Board of India, Master Circular for Stock Brokers, SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/90 (17 June 2025), para 63 and Annexures 26-28, consolidating and (as it relates to stock brokers) rescinding Circular SEBI/HO/MIRSD/DOS2/CIR/P/2019/10 (4 January 2019); for depository participants, Master Circular for Depositories, SEBI/HO/MRD/MRD-PoD-1/P/CIR/2024/168 (3 December 2024), para 2.20",
+      "src": "https://www.sebi.gov.in/legal/master-circulars/jun-2025/master-circular-for-stock-brokers_94623.html"
+    },
+    {
+      "name": "Digital Personal Data Protection Rules, 2025",
+      "original_title": "G.S.R. 846(E)",
+      "year": "2025",
+      "status": "Binding",
+      "type": "Subordinate rules",
+      "actor": "Developer; Deployer; State",
+      "systems": "All digital personal data processing; the only algorithm-specific provision is r 13(3) on 'algorithmic software' used by Significant Data Fiduciaries; AI is not named",
+      "ai_defined": "No",
+      "trigger": "Processing under the Act; rr 1, 2 and 17-21 in force 13-11-2025, r 4 (consent managers) from 13-11-2026, rr 3, 5-16, 22-23 (including r 13) from 13-05-2027; r 13 attaches on notification as a Significant Data Fiduciary",
+      "duties": "Transparency; Data governance; Risk management; Impact assessment; Audit; Registration or filing",
+      "duty_note": "Notice standards, security and retention rules, consent-manager registration, and for Significant Data Fiduciaries an annual impact assessment and audit reported to the Board plus due diligence that algorithmic software is not likely to risk data principals' rights",
+      "risk": "Absent",
+      "tiers": "",
+      "rights": "Notice; Contestation",
+      "enf": "Data Protection Board of India",
+      "remedy": "Penalties under s 33 and the Schedule of the parent Act (in force from 13-05-2027); the Rules add no sanction of their own",
+      "gap": "Rule 13(3) asks Significant Data Fiduciaries to check that algorithmic software is 'not likely to pose a risk' but sets no test, standard or audit method, and it binds only notified fiduciaries, so most AI deployers face no algorithm-specific duty.",
+      "citation": "Digital Personal Data Protection Rules 2025, G.S.R. 846(E), Gazette of India Extraordinary Pt II s 3(i) (13 November 2025), rr 1, 3, 4, 13, 14, made under s 40 of the Digital Personal Data Protection Act 2023",
+      "src": "https://egazette.gov.in/WriteReadData/2025/267650.pdf"
+    },
+    {
+      "name": "Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Amendment Rules, 2026",
+      "original_title": "G.S.R. 120(E)",
+      "year": "2026",
+      "status": "Binding",
+      "type": "Subordinate rules",
+      "actor": "Platform",
+      "systems": "'Synthetically generated information': realistic audio, visual or audio-visual content created or altered by computer (r 2(1)(wa)); routine edits excluded and text-only output outside the definition; AI itself is not defined",
+      "ai_defined": "No",
+      "trigger": "Being an intermediary whose computer resource enables creating or sharing synthetic content (r 3(3)); significant social media intermediaries before publication (r 4(1A)); in force 20-02-2026",
+      "duties": "Labelling; Transparency; Prohibition",
+      "duty_note": "Block unlawful synthetic content, prominently label lawful synthetic content and embed metadata or a unique identifier where technically feasible, collect and verify user declarations, and remove unlawful content within three hours of a court order or authorised intimation",
+      "risk": "Absent",
+      "tiers": "",
+      "rights": "Notice; Contestation",
+      "enf": "No dedicated regulator: MeitY administers the Rules; takedown follows court orders or reasoned intimations from authorised officers (r 3(1)(d), as substituted by G.S.R. 775(E) and tightened in 2026); grievance officers and Grievance Appellate Committees hear complaints",
+      "remedy": "Loss of safe-harbour protection under s 79(1) of the IT Act 2000 and liability under any law, including the IT Act and the Bharatiya Nyaya Sanhita 2023 (r 7)",
+      "gap": "Duties reach only intermediaries and only realistic audio-visual content, so AI-generated text and model developers that do not act as intermediaries fall outside, and the provenance duty applies only 'to the extent technically feasible'.",
+      "citation": "Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Amendment Rules 2026, G.S.R. 120(E), Gazette of India Extraordinary Pt II s 3(i) (10 February 2026), rr 2(1)(wa), 3(1)(c)-(d), 3(3), 4(1A), 7, as corrected by G.S.R. 148(E) (26 February 2026); amending the IT (Intermediary Guidelines and Digital Media Ethics Code) Rules 2021, G.S.R. 139(E) (25 February 2021), whose r 3(1)(d) was substituted by G.S.R. 775(E) (22 October 2025, w.e.f. 15 November 2025)",
+      "src": "https://egazette.gov.in/WriteReadData/2026/269993.pdf"
+    },
+    {
+      "name": "Ethical Guidelines for Application of Artificial Intelligence in Biomedical Research and Healthcare",
+      "original_title": "",
+      "year": "2023",
+      "status": "Soft law",
+      "type": "Regulator guidance",
+      "actor": "Developer; Deployer",
+      "systems": "AI tools in biomedical research and healthcare, from development and validation to clinical deployment; the preamble quotes a descriptive, non-legal definition of AI",
+      "ai_defined": "No",
+      "trigger": "None binding; applies to developing, validating or deploying health AI, chiefly through ethics-committee review of research proposals",
+      "duties": "Transparency; Risk management; Impact assessment; Audit; Human oversight; Data governance",
+      "duty_note": "Recommends informed consent, benefit-risk and impact assessment, external audits, human oversight with manual override for high-harm tools, and data-protection safeguards",
+      "risk": "Absent",
+      "tiers": "",
+      "rights": "Notice; Human review; Contestation",
+      "enf": "None; Indian Council of Medical Research guidance applied by institutional ethics committees",
+      "remedy": "None; the compensation and grievance mechanisms it recommends are not enforceable through it",
+      "gap": "Because it is non-binding and aimed mainly at research ethics review, the patient rights and compensation it recommends are unenforceable, and commercial clinical AI tools are not brought under any licensing or liability regime by it.",
+      "citation": "Indian Council of Medical Research, Ethical Guidelines for Application of Artificial Intelligence in Biomedical Research and Healthcare (DHR-ICMR, 2023), ISBN 978-93-5811-343-3",
+      "src": "https://www.icmr.gov.in/icmrobject/custom_data/pdf/Ethical-guidelines/Ethical_Guidelines_AI_Healthcare_2023.pdf"
+    },
+    {
+      "name": "MeitY Advisory on Due Diligence by Intermediaries/Platforms under the IT Act 2000 and IT Rules 2021 (AI models and generative AI)",
+      "original_title": "eNo.2(4)/2023-CyberLaws-3",
+      "year": "2024",
+      "status": "Soft law",
+      "type": "Advisory",
+      "actor": "Developer; Deployer; Platform",
+      "systems": "AI models, large language models, generative AI, software and algorithms used on or offered through intermediaries, including tools that can create synthetic text, audio or video",
+      "ai_defined": "No",
+      "trigger": "Using AI on or through an intermediary's computer resource, or making under-tested or unreliable AI available to users in India; compliance requested with immediate effect from 15-03-2024",
+      "duties": "Labelling; Transparency; Prohibition",
+      "duty_note": "Asks platforms to stop AI being used for unlawful content, bias or threats to electoral integrity, label unreliable models (eg by consent pop-ups), and label or embed metadata in synthetic content usable as misinformation or deepfakes",
+      "risk": "Absent",
+      "tiers": "",
+      "rights": "Notice",
+      "enf": "Issued by MeitY's Cyber Law and Data Governance Group; it names no enforcement body",
+      "remedy": "None of its own; it reiterates that breaching the IT Act or IT Rules can lead to prosecution under the IT Act and criminal law",
+      "gap": "Its legal force is contested and its thresholds ('under-tested', 'unreliable') are undefined, so intermediaries cannot tell what binds them; its overlap with the binding 2026 synthetic-content rules is left unstated.",
+      "citation": "Ministry of Electronics and Information Technology (Cyber Law and Data Governance Group), Advisory eNo.2(4)/2023-CyberLaws-3, 'Due diligence by Intermediaries / Platforms under the Information Technology Act, 2000 and Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021' (15 March 2024), superseding the advisory of 1 March 2024",
+      "src": "https://web.archive.org/web/20240406133511/https://www.meity.gov.in/writereaddata/files/Advisory%2015March%202024.pdf"
+    },
+    {
+      "name": "Report of the Committee to develop a Framework for Responsible and Ethical Enablement of Artificial Intelligence (FREE-AI) in the Financial Sector",
+      "original_title": "",
+      "year": "2025",
+      "status": "Soft law",
+      "type": "Regulator guidance",
+      "actor": "Developer; Deployer",
+      "systems": "AI, including generative and agentic AI, used by RBI-regulated entities such as banks and NBFCs; the glossary defines 'AI system' but not as law",
+      "ai_defined": "No",
+      "trigger": "None binding; recommendations to RBI and regulated entities that take effect only if issued as RBI directions",
+      "duties": "Transparency; Risk management; Audit; Human oversight; Data governance",
+      "duty_note": "Seven sutras and 26 recommendations: board-approved AI policy classifying use cases as low, medium or high risk, AI inventory, incident reporting, audits, human oversight, consumer disclosure and grievance redress",
+      "risk": "Present",
+      "tiers": "Low risk; Medium risk; High risk (recommended for each entity's board-approved AI policy, with human oversight for medium- and high-risk uses and third-party audits for high-risk ones)",
+      "rights": "Notice; Contestation; Human review",
+      "enf": "Reserve Bank of India, only through its existing supervisory powers if it adopts the recommendations",
+      "remedy": "None in the report",
+      "gap": "None of its 26 recommendations binds a regulated entity, so the consumer safeguards it proposes (being told when AI is used, grievance redress, escalation to a human) remain unenforceable; the RBI's only follow-up so far, the June 2026 model-risk guidance, is still a draft.",
+      "citation": "Reserve Bank of India, Report of the Committee to develop a Framework for Responsible and Ethical Enablement of Artificial Intelligence (FREE-AI) in the Financial Sector (13 August 2025), Press Release 2025-2026/902, paras 4.4.44, 4.4.49, 4.4.54-4.4.55 and Recommendations 16 and 18",
+      "src": "https://rbi.org.in/Scripts/PublicationReportDetails.aspx?ID=1306"
+    },
+    {
+      "name": "India AI Governance Guidelines: Enabling Safe and Trusted AI Innovation",
+      "original_title": "",
+      "year": "2025",
+      "status": "Soft law",
+      "type": "Regulator guidance",
+      "actor": "Developer; Deployer; State",
+      "systems": "AI systems across all sectors, approached through seven principles ('sutras') and six pillars; a non-statutory glossary defines 'AI system'",
+      "ai_defined": "No",
+      "trigger": "None; voluntary adoption, with sector regulators applying existing laws",
+      "duties": "Transparency; Risk management; Human oversight; Audit",
+      "duty_note": "Recommends voluntary transparency reporting, incident reporting, grievance redressal, human oversight and audits proportionate to risk, and a graded liability approach",
+      "risk": "Absent",
+      "tiers": "",
+      "rights": "Contestation",
+      "enf": "None for the text; MeitY is the nodal ministry and sector regulators enforce their own laws; the coordinating group it proposed was set up in April 2026 in modified form as the AI Governance and Economic Group, chaired by the IT Minister rather than the Principal Scientific Adviser and without sector regulators as members",
+      "remedy": "None; compliance is voluntary",
+      "gap": "It states that a separate AI law is not needed at this stage and defers risk classification and liability allocation to future work, so no developer or deployer faces an enforceable duty under it; press reports say MeitY announced in October 2026 a regulation-focused consultation paper, unpublished at 19-11-2026.",
+      "citation": "Ministry of Electronics and Information Technology, India AI Governance Guidelines: Enabling Safe and Trusted AI Innovation (5 November 2025, released with PIB Release ID 2186639)",
+      "src": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/nov/doc2025115685601.pdf"
+    },
+    {
+      "name": "Consultation Paper on Guidelines for Responsible Usage of AI/ML in Indian Securities Markets",
+      "original_title": "",
+      "year": "2025",
+      "status": "Proposed",
+      "type": "Regulator guidance",
+      "actor": "Developer; Deployer",
+      "systems": "AI/ML applications and models used by SEBI-regulated market participants such as exchanges, brokers and mutual funds; Annexure A gives descriptive, non-legal definitions of AI and ML",
+      "ai_defined": "No",
+      "trigger": "Would apply to market participants' use of AI/ML once final guidelines issue; comments closed 11-07-2025 and no final guidelines had been issued by 19-11-2026",
+      "duties": "Transparency; Risk management; Audit; Human oversight; Data governance",
+      "duty_note": "Proposes model governance with senior-management accountability, client disclosure, testing and documentation, independent audit, fairness and bias controls, and data security",
+      "risk": "Present",
+      "tiers": "Client-impacting business uses (full framework); other uses such as internal compliance, surveillance and cybersecurity (regulatory-lite)",
+      "rights": "Notice; Contestation",
+      "enf": "Securities and Exchange Board of India",
+      "remedy": "None while a proposal; SEBI's powers under the SEBI Act 1992 would apply if adopted",
+      "gap": "More than a year after consultation closed it remains unadopted, so the only binding SEBI rule on AI conduct is reg 16C's bare liability clause; its tiers follow the purpose of use rather than model risk.",
+      "citation": "Securities and Exchange Board of India, Consultation Paper on Guidelines for Responsible Usage of AI/ML in Indian Securities Markets (20 June 2025), paras 5-6 and Annex A",
+      "src": "https://www.sebi.gov.in/reports-and-statistics/reports/jun-2025/consultation-paper-on-guidelines-for-responsible-usage-of-ai-ml-in-indian-securities-markets_94687.html"
+    },
+    {
+      "name": "Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Second Amendment Rules, 2026 (draft)",
+      "original_title": "",
+      "year": "2026",
+      "status": "Proposed",
+      "type": "Subordinate rules",
+      "actor": "Platform",
+      "systems": "Intermediaries generally; the AI-relevant proposals are a continuous on-screen label for visual synthetic content and a duty to obey written MeitY advisories, including those on AI",
+      "ai_defined": "No",
+      "trigger": "Would apply from a commencement date left blank in the draft; first draft published 30-03-2026, revised draft and a comment deadline of 07-05-2026 announced on 21-04-2026; not notified as of 19-11-2026",
+      "duties": "Labelling",
+      "duty_note": "Would require labels on visual synthetic content to stay visible throughout, make compliance with written MeitY clarifications, advisories, SOPs and codes part of s 79 due diligence (draft r 3(4)), and extend Part III oversight to news content posted by non-publisher users",
+      "risk": "Absent",
+      "tiers": "",
+      "rights": "None",
+      "enf": "MeitY for Part II duties; the Ministry of Information and Broadcasting's Part III oversight mechanism for news and current-affairs content",
+      "remedy": "Would put s 79 safe harbour at risk for ignoring MeitY advisories; no new penalty",
+      "gap": "Draft r 3(4) would make compliance with written MeitY advisories, SOPs and codes a condition of safe harbour; although each must state its legal basis and be consistent with the Act, executive guidance would gain binding effect without parliamentary scrutiny or any process for challenging a particular advisory.",
+      "citation": "Ministry of Electronics and Information Technology, Draft Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Second Amendment Rules 2026, revised draft notification (April 2026), draft paras 3 (r 3(3)(a)(ii)), 4 (r 3(4)), 5 (r 8) and 6 (r 14); first draft published 30 March 2026; MeitY Notice of 21 April 2026 (comments by 7 May 2026)",
+      "src": "https://www.meity.gov.in/static/uploads/2026/04/c6a19720a5818c853e526a082e7f8f9a.pdf"
+    },
+    {
+      "name": "Draft Guidance on Regulatory Principles for Model Risk Management, 2026",
+      "original_title": "",
+      "year": "2026",
+      "status": "Proposed",
+      "type": "Regulator guidance",
+      "actor": "Developer; Deployer",
+      "systems": "All models used by RBI-regulated entities, including AI/ML, generative, foundational, frontier and third-party models; 'model' is defined, AI is not",
+      "ai_defined": "No",
+      "trigger": "Would apply to model use by banks, NBFCs and other listed regulated entities once finalised; comments closed 24-07-2026 and it remained a draft as of 19-11-2026",
+      "duties": "Risk management; Human oversight; Transparency; Audit; Data governance",
+      "duty_note": "Board-approved model risk framework, risk-based model tiering and inventory, independent validation, explainability thresholds, bias and hallucination controls, red-teaming, and human oversight with kill-switches for AI models",
+      "risk": "Present",
+      "tiers": "Entity-defined risk tiers based on materiality and complexity (including a 'high' tier needing Board-committee review); AI models also tiered by reliance and autonomy",
+      "rights": "Notice; Contestation",
+      "enf": "Reserve Bank of India (Department of Regulation)",
+      "remedy": "None specified; it would rely on RBI's supervisory powers, and existing RBI Directions prevail where inconsistent",
+      "gap": "Customer protection is limited to disclosure that AI is in use, an option to reach a human and existing grievance channels, with no right to an explanation of an individual decision; further AI-specific requirements are left for later.",
+      "citation": "Reserve Bank of India, Draft Guidance on Regulatory Principles for Model Risk Management 2026 (24 June 2026), Press Release 2026-2027/528, paras 4-6, 17-25, 49-63",
+      "src": "https://www.rbi.org.in/Scripts/bs_viewcontent.aspx?Id=5089"
+    }
+  ]
+}
